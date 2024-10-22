@@ -40,7 +40,11 @@ export const POST: APIRoute = async ({ request }) => {
 
         // Transform image
         const getTransformedImage = await fetch(`https://res.cloudinary.com/dg7xhhwrl/image/upload/e_gen_replace:from_face;to_Shattered face of creepy zombie scream;preserve-geometry_false/v1671769343/${uploadResponse.public_id}.png`);
-        const transformedImage = await getTransformedImage.blob();
+        const transformedImage = await getTransformedImage.blob().finally(() => {
+            // Delete the uploaded image from Cloudinary
+            cloudinary.uploader.destroy(uploadResponse.public_id);
+        });
+
 
         return new Response(transformedImage, {
             status: 200,
