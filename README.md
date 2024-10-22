@@ -4,6 +4,9 @@
 npm create astro@latest -- --template basics
 ```
 
+Shattered face of creepy zombie scream
+https://res.cloudinary.com/generative-ai-demos/image/upload//e_gen_replace:from_face;to_Shattered face of creepy zombie scream;preserve-geometry_false/f_auto/q_auto/v1/website_assets/samples/remove_replace/rr_4.jpg
+https://res.cloudinary.com/dg7xhhwrl/image/upload/e_gen_replace:from_face;to_Shattered face of creepy zombie scream;preserve-geometry_false/v1671769343/samples/bike.jpg
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
 [![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
