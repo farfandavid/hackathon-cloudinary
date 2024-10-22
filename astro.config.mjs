@@ -11,7 +11,11 @@ import node from '@astrojs/node';
 export default defineConfig({
   output: "server",
   integrations: [react(), tailwind()],
-
+  server: {
+    host: true,
+    port: 4321,
+    open: true
+  },
   adapter: node({
     mode: 'standalone'
   })
